@@ -1,0 +1,44 @@
+guns:
+  ak47:
+    displayName: "AK-47"
+    damage: 7.0
+    magazineSize: 30
+    fireRate: 100
+    reloadTime: 60
+    shootSound: "ENTITY_GENERIC_EXPLODE"
+    soundVolume: 1.5
+    soundPitch: 1.2
+    reloadSound: "ITEM_ARMOR_EQUIP_IRON"
+  
+  pistol:
+    displayName: "Pistol"
+    damage: 4.0
+    magazineSize: 12
+    fireRate: 150
+    reloadTime: 40
+    shootSound: "ENTITY_FIREWORK_ROCKET_BLAST"
+    soundVolume: 1.0
+    soundPitch: 1.5
+    reloadSound: "ITEM_ARMOR_EQUIP_IRON"
+  
+  sniper:
+    displayName: "Sniper Rifle"
+    damage: 15.0
+    magazineSize: 5
+    fireRate: 800
+    reloadTime: 80
+    shootSound: "ENTITY_LIGHTNING_BOLT_THUNDER"
+    soundVolume: 2.0
+    soundPitch: 1.0
+    reloadSound: "ITEM_ARMOR_EQUIP_IRON"
+  
+  shotgun:
+    displayName: "Shotgun"
+    damage: 6.0
+    magazineSize: 6
+    fireRate: 600
+    reloadTime: 100
+    shootSound: "ENTITY_BLAZE_HURT"
+    soundVolume: 1.8
+    soundPitch: 0.8
+    reloadSound: "ITEM_ARMOR_EQUIP_CHAIN"

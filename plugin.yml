@@ -1,0 +1,24 @@
+name: GunSystem
+version: '1.0.0'
+main: com.gunsystem.GunSystem
+api-version: '1.20'
+author: YourName
+description: ระบบปืนแบบครบวงจรสำหรับ Minecraft
+
+commands:
+  gun:
+    description: เปิดเมนูจัดการปืน
+    usage: /gun
+    permission: gunsystem.admin
+  givebullet:
+    description: ให้กระสุนผู้เล่น
+    usage: /givebullet <player> <amount>
+    permission: gunsystem.admin
+
+permissions:
+  gunsystem.admin:
+    description: สิทธิ์ผู้ดูแลระบบปืน
+    default: op
+  gunsystem.use:
+    description: สิทธิ์ใช้ปืน
+    default: true
